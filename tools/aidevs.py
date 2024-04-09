@@ -1,6 +1,8 @@
 import requests, json
 import sys, os
 
+from urllib3 import encode_multipart_formdata
+
 
 base_url = 'https://tasks.aidevs.pl'
 
@@ -15,9 +17,14 @@ def get_token(taskname: str) -> str:
     return token
 
 
-def get_task(token: str) -> str:
+def get_task(token: str, body: dict | None) -> str:
     url = f"{base_url}/task/{token}"
-    response = requests.get(url)
+    if type(body) == dict:
+        body, header = encode_multipart_formdata(body)
+        headers = {'content-type': header}
+        response = requests.post(url, data=body, headers=headers, verify=False)
+    else:
+        response = requests.get(url)
     # print(f'\nget_task: {response.text}')
     return response.text
 
