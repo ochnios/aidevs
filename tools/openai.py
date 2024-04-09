@@ -1,4 +1,4 @@
-import requests
+import requests, json
 import os
 
 
@@ -22,3 +22,6 @@ def chat(model="gpt-3.5-turbo", system=None, user=None) -> str:
     headers = {'Authorization': 'Bearer ' + os.getenv('OPENAI_API_KEY')}
     response = requests.post(url, headers=headers, json=payload)
     return response.text
+
+def get_completion(model_response: str) -> dict:
+    return json.loads(model_response)['choices'][0]['message']['content']
