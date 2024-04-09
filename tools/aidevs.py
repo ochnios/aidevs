@@ -17,7 +17,7 @@ def get_token(taskname: str) -> str:
     return token
 
 
-def get_task(token: str, body: dict | None) -> str:
+def get_task(token: str, body=None) -> str:
     url = f"{base_url}/task/{token}"
     if type(body) == dict:
         body, header = encode_multipart_formdata(body)
