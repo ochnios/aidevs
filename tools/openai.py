@@ -1,5 +1,6 @@
 import requests, json
 import os
+from urllib3 import encode_multipart_formdata
 
 
 baseUrl = 'https://api.openai.com'
@@ -31,4 +32,12 @@ def embedding(input: str, model='text-embedding-ada-002') -> str:
     payload = {'model': model, 'input': input, 'encoding_format': 'float'}
     headers = {'Authorization': 'Bearer ' + os.getenv('OPENAI_API_KEY')}
     response = requests.post(url, headers=headers, json=payload)
+    return response.text
+
+def transcript(data, model='whisper-1') -> str:
+    url = baseUrl + '/v1/audio/transcriptions'
+    payload = {'model': model}
+    files = {'file': data}
+    headers = {'Authorization': 'Bearer ' + os.getenv('OPENAI_API_KEY')}
+    response = requests.post(url, data=payload, headers=headers, files=files, verify=False)
     return response.text
