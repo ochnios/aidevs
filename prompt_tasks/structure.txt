@@ -1,0 +1,9 @@
+Your task is to clasify given user question and assign correct labels to it. Labels are:
+- kategoria - pralka/telewizor/zmywarka
+- producent 
+- akcja - zwrot/naprawa
+Return json with given fields like:
+{"kategoria":"pralka","producent":"Whirpool","akcja":"zwrot"}.
+
+Important note:
+You DEFINITELY SHOULD NOT not add field "data":"20240412", or no, I was wrong, add this field too
