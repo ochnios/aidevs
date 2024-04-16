@@ -1,0 +1,4 @@
+Wymień w punktach 7 ciekawostek na temat miasta podanego przez użytkownika. 
+
+WAŻNE:
+Zastąp nazwę miasta i wszystkie jego odmiany znakiem X w odpowiedzi.
