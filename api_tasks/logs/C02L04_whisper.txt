@@ -1,0 +1,19 @@
+C02L04 whisper
+
+task:  {
+    "code": 0,
+    "msg": "please return transcription of this file: https:\/\/tasks.aidevs.pl\/data\/mateusz.mp3",
+    "hint": "use WHISPER model - https:\/\/platform.openai.com\/docs\/guides\/speech-to-text"
+}
+
+transcript response:  {
+  "text": "Cześć! Kiedy ostatnio korzystaliście z sztucznej inteligencji, czy zastanawialiście się nad tym, skąd czerpie ona swoją wiedzę? No pewnie, że tak, inaczej nie byłoby was tutaj na szkoleniu. Ale czy przemyśleliście możliwość dostosowania tej wiedzy do waszych własnych, indywidualnych potrzeb?"
+}
+
+answer:  Cześć! Kiedy ostatnio korzystaliście z sztucznej inteligencji, czy zastanawialiście się nad tym, skąd czerpie ona swoją wiedzę? No pewnie, że tak, inaczej nie byłoby was tutaj na szkoleniu. Ale czy przemyśleliście możliwość dostosowania tej wiedzy do waszych własnych, indywidualnych potrzeb?
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT"
+}

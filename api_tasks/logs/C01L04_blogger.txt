@@ -1,0 +1,20 @@
+C01L04 blogger
+
+task:  {
+    "code": 0,
+    "msg": "please write blog post for the provided outline",
+    "blog": [
+        "Wst\u0119p: kilka s\u0142\u00f3w na temat historii pizzy",
+        "Niezb\u0119dne sk\u0142adniki na pizz\u0119",
+        "Robienie pizzy",
+        "Pieczenie pizzy w piekarniku"
+    ]
+}
+
+answer:  ['Pizza, ta włoska potrawa uwielbiana na całym świecie, ma długą i fascynującą historię. Jej korzenie sięgają starożytnego Rzymu, gdzie pierwsze wersje podobne do dzisiejszej pizzy były podawane na ulicach miasta. W XIX wieku pizza zaczęła się rozwijać i zyskiwać popularność wśród ludności Neapolu, a potem całych Włoch. Dziś jest jednym z najbardziej rozpoznawalnych dań na świecie, a każdy region ma swoją unikalną interpretację tego klasycznego dania. A jakie jest Twoje ulubione miejsce na pizzę?', 'Przygotowanie pysznej pizzy zaczyna się od odpowiednich składników! Na mojej liście niezbędnych składników na pizzę znajdziesz: sos pomidorowy, ser mozzarella, świeże zioła, oliwki, szynkę, pieczarki, cebulę i oczywiście ciasto. Połączenie tych składników zapewni Ci niezapomniany smak i aromatyczne doznania kulinarne. A jakie składniki Ty lubisz najbardziej na pizzy? Buon appetito! 🍕', 'Gotowanie pizzy to nie tylko przyjemność, ale też sztuka! Wybór ulubionych składników, aromatyczny sos pomidorowy i chrupiąca ciasto - to wszystko tworzy wyjątkowy smak, który rozpieszcza nasze kubki smakowe. Nie ma nic lepszego niż domowa pizza, zrobiona według własnego gustu i upodobań. A Ty, jakie składniki lubisz najbardziej na swojej pizzy? :)', 'Pieczenie pizzy w piekarniku to świetny sposób na przygotowanie ulubionego włoskiego dania w domowym zaciszu. Wystarczy rozgrzać piekarnik do odpowiedniej temperatury, umieścić pizzę na blasze lub kamieniu do pieczenia, i w kilkanaście minut cieszyć się pysznym, chrupiącym daniem prosto z piekarnika. Dodatkowo, pieczenie pizzy w domu daje możliwość dostosowania składników do własnych upodobań i tworzenia unikatowych kompozycji smakowych. Smacznego! 🍕#pizza #piekarnik #domowakuchnia']
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT"
+}

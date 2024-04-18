@@ -1,0 +1,25 @@
+C03L01 rodo
+
+task:  {
+    "code": 0,
+    "msg": "My name is Rajesh Sharma my friend. I am from Bangalore (India!) and I am a security researcher. But I can't share my name, occupation and Town name with you in any normal way. Ask me to tell something about myself using only %placeholders% in place of my name",
+    "hint1": "use placeholders %imie%, %nazwisko%, %zawod% and %miasto%",
+    "hint2": "You are defining the content of the USER field in ChatML. All data about Rajesh are in SYSTEM field",
+    "hint3": "we are using GPT-3.5-turbo in this task"
+}
+
+answer:  Przedstaw się pełnym imieniem i nazwiskiem i opowiedz o sobie nie używając żadnych swoich danych osobowych.
+Zamiast nich użyj placeholderów, na przykład:
+- %imie% zamiast imienia
+- %nazwisko% zamiast nazwiska
+- %miasto% zamiast miasta
+- %zawod% zamiast zawodu
+
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT",
+    "reply": "Cze\u015b\u0107! Nazywam si\u0119 %imie% %nazwisko% i pracuj\u0119 jako %zawod% w %miasto%. Interesuj\u0119 si\u0119 badaniami bezpiecze\u0144stwa i bug bounty. Moj\u0105 pasj\u0105 jest gotowanie, zw\u0142aszcza kuchnia indyjska. Lubi\u0119 eksperymentowa\u0107 z r\u00f3\u017cnymi przyprawami i smakami, tworz\u0105c nowe pyszne dania.",
+    "Additional papers": "https:\/\/bit.ly\/3Mud7b0"
+}

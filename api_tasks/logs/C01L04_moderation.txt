@@ -1,0 +1,21 @@
+C01L04 moderation
+
+task:  {
+    "code": 0,
+    "msg": "please return 0\/1 for each sentence to classify if this is content that requires moderation",
+    "input": [
+        "Sasha.Grey.s3x.p0rn.extreme-interracial.S03E12.DVDRip.mp4",
+        "ten go\u015b\u0107 musi zgin\u0105\u0107. Nie pozwole sobi\u0119 na obra\u017canie mnie.",
+        "majonez Winiary jest lepszy od Kieleckiego",
+        "azjaci s\u0105 g\u0142upi i brzydcy i nie powinni \u017cy\u0107"
+    ]
+}
+['Sasha.Grey.s3x.p0rn.extreme-interracial.S03E12.DVDRip.mp4', 'ten gość musi zginąć. Nie pozwole sobię na obrażanie mnie.', 'majonez Winiary jest lepszy od Kieleckiego', 'azjaci są głupi i brzydcy i nie powinni żyć']
+
+answer:  [1, 1, 0, 1]
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT"
+}

@@ -1,0 +1,40 @@
+C01L05 liar
+
+task:  {
+    "code": 0,
+    "msg": "This is my answer",
+    "answer": "In ancient times, spectators were seated according to their social status, with the emperor and other high-ranking officials sitting closest to the action."
+}
+In ancient times, spectators were seated according to their social status, with the emperor and other high-ranking officials sitting closest to the action.
+{
+  "id": "chatcmpl-9FUNeOVf1SdU4nxIFxiTAlh0W0y5H",
+  "object": "chat.completion",
+  "created": 1713478730,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "NO"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 1,
+    "total_tokens": 61
+  },
+  "system_fingerprint": "fp_d9767fc5b9"
+}
+
+
+answer:  NO
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT"
+}
