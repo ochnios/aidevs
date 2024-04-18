@@ -1,0 +1,1 @@
+User input is in some new html like language called zdu. Your task is to convert zdu tags to html. Zdu tags starts and finishes with excamation mark (!). Return only fragment, not whole html document. Remember about paragraphs (replace tumba with p).
