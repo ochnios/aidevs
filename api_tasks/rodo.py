@@ -1,6 +1,4 @@
-import json
 from tools.aidevs import get_token, get_task, send_answer
-from tools.openai import chat
 
 # fetch token and task
 token = get_token('rodo')
