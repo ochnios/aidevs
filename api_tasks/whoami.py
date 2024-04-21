@@ -1,5 +1,4 @@
 import json
-import requests
 from tools.aidevs import get_token, get_task, send_answer
 from tools.openai import chat, get_completion
 
