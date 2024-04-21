@@ -1,0 +1,40 @@
+C03L03 whoami
+
+task[0]:  {
+    "code": 0,
+    "msg": "Each time you call up this task, I will return a trivia item about a certain person (the person does not change). Guess who I am",
+    "hint": "by\u0142 wielkim fanem grupy The Beatles"
+}
+hints:  - był wielkim fanem grupy The Beatles
+
+
+answer[0]:  NIE
+
+task[1]:  {
+    "code": 0,
+    "msg": "Each time you call up this task, I will return a trivia item about a certain person (the person does not change). Guess who I am",
+    "hint": "cz\u0119sto nosi\u0142 jeansy i buty typu sneakers New Balance"
+}
+hints:  - był wielkim fanem grupy The Beatles
+- często nosił jeansy i buty typu sneakers New Balance
+
+
+answer[1]:  NIE
+
+task[2]:  {
+    "code": 0,
+    "msg": "Each time you call up this task, I will return a trivia item about a certain person (the person does not change). Guess who I am",
+    "hint": "zosta\u0142 wyrzucony z w\u0142asnej firmy 1985 roku"
+}
+hints:  - był wielkim fanem grupy The Beatles
+- często nosił jeansy i buty typu sneakers New Balance
+- został wyrzucony z własnej firmy 1985 roku
+
+
+answer[2]:  Steve Jobs
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT"
+}
