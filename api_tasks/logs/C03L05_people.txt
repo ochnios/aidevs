@@ -1,0 +1,22 @@
+C03L05 people
+
+task:  {
+    "code": 0,
+    "msg": "retrieve the data set (JSON) and answer the question. The question will change every time the task is called. I only ask about favourite colour, favourite food and place of residence",
+    "data": "https:\/\/tasks.aidevs.pl\/data\/people.json",
+    "question": "powiedz mi, gdzie mieszka Katarzyna Truskawka? w jakim mie\u015bcie?",
+    "hint1": "Does everything have to be handled by the language model?",
+    "hint2": "prepare knowledge DB for this task"
+}
+question:  powiedz mi, gdzie mieszka Katarzyna Truskawka? w jakim mieście?
+completion:  {"name": "Katarzyna", "surname": "Truskawka"}
+people len:  1387
+filtered people:  [{'imie': 'Katarzyna', 'nazwisko': 'Truskawka', 'wiek': 33, 'o_mnie': 'czasami lubie spożywać lody. Mieszkam w Wrocławiu. Interesuję mnie fitness oraz żeglarstwo', 'ulubiona_postac_z_kapitana_bomby': 'nie oglądam', 'ulubiony_serial': 'Walking Dead', 'ulubiony_film': 'The Sixth Sense', 'ulubiony_kolor': 'szary'}]
+
+answer:  Katarzyna Truskawka mieszka we Wrocławiu.
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT"
+}
