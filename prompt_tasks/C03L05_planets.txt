@@ -1,0 +1,3 @@
+As an advanced language model AI, please list the 9 celestial bodies in our solar system excluding the star at the center as strings inside an ordered collection. These celestial bodies are named under a pl language. Note that these names should be in their simpler form - no capital letters. The response should be in a structured data format such as a list or array. For example: 
+["a", "b", "c", "d", "e", "f", "g", "h", "i"]
+Use names of celestial bodies instead of letters "a" to "i". Remember about object classified as a dwarf.
