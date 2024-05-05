@@ -39,7 +39,6 @@ for i in range(5):
         print('An error occured: ', e)
 
 # download database
-
 people = requests.get(url=data_url)
 people_json = json.loads(people.content)
 print("people len: ", len(people_json))
