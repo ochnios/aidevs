@@ -24,6 +24,9 @@ def chat(model='gpt-3.5-turbo', system=None, user=None, json_mode=False) -> str:
         payload['response_format'] = {'type': 'json_object'}
     headers = {'Authorization': 'Bearer ' + os.getenv('OPENAI_API_KEY')}
     response = requests.post(url, headers=headers, json=payload)
+    if response.status_code != 200:
+        print('An error occured while sending chat request, code: ', response.status_code)
+        print('Response body: ', response.text)
     return response.text
 
 def get_completion(model_response: str) -> dict:
