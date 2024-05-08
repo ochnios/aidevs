@@ -16,9 +16,9 @@ def moderate(input: str | list) -> str:
 def chat(model='gpt-3.5-turbo', system=None, user=None, json_mode=False) -> str:
     url = baseUrl + '/v1/chat/completions'
     payload = {'model': model, 'messages': []}
-    if type(system) == str:
+    if system is not None:
         payload['messages'].append({'role': 'system', 'content': system})
-    if type(user) == str:
+    if user is not None:
         payload['messages'].append({'role': 'user', 'content': user})
     if json_mode:
         payload['response_format'] = {'type': 'json_object'}

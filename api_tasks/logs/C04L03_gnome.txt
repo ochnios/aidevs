@@ -1,0 +1,36 @@
+C04L03 gnome
+
+task_json:  {'code': 0, 'msg': 'I will give you a drawing of a gnome with a hat on his head. Tell me what is the color of the hat in POLISH. If any errors occur, return "ERROR" as answer', 'hint': "it won't always be a drawing of a gnome >:)", 'url': 'https://tasks.aidevs.pl/gnome/eb3b29e45c304921ea7b4a3b3d955a17.png'}
+
+full completion response:  {
+  "id": "chatcmpl-9MjT52M2mw43f6tgnhNnOTNhRvDN6",
+  "object": "chat.completion",
+  "created": 1715205023,
+  "model": "gpt-4-turbo-2024-04-09",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Czerwony"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 322,
+    "completion_tokens": 4,
+    "total_tokens": 326
+  },
+  "system_fingerprint": "fp_5d12056990"
+}
+
+
+answer:  Czerwony
+
+result:  {
+    "code": 0,
+    "msg": "OK",
+    "note": "CORRECT"
+}
