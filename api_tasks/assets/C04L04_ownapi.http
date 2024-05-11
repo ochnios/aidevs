@@ -1,0 +1,5 @@
+POST https://hook.eu2.make.com/{mywebhook} HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{"question": "How long it took to build Eiffel tower?"}
