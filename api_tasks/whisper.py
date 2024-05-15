@@ -12,9 +12,9 @@ print('\ntask: ', task)
 # fetch audio for transcription
 task_data = requests.get('https://tasks.aidevs.pl/data/mateusz.mp3')
 mp3 = task_data.content
-with open('assets/mateusz.mp3', 'wb') as file:
+with open('assets/C02L04_mateusz.mp3', 'wb') as file:
     file.write(mp3)
-mp3 = open('assets/mateusz.mp3', 'rb')
+mp3 = open('assets/C02L04_mateusz.mp3', 'rb')
 
 # generate transcrption
 response = transcript(mp3)
