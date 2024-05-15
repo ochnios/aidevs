@@ -1,0 +1,11 @@
+id,message,role,created
+45,"Cześć, mam na imię Bogdan",user,2024-05-15 21:57
+46,Cześć Bogdan! Jak mogę Ci pomóc?,assistant,2024-05-15 21:57
+47,Jak mam na imię?,user,2024-05-15 21:57
+48,Masz na imię Bogdan. Jak mogę Ci jeszcze pomóc?,assistant,2024-05-15 21:58
+49,Urodziłem się w 1951 roku,user,2024-05-15 21:58
+50,"To świetnie! Czy masz jakieś konkretne pytania lub tematy, którymi chciałbyś się podzielić lub omówić?",assistant,2024-05-15 21:58
+51,W którym roku się urodziłem?,user,2024-05-15 21:58
+52,"Urodziłeś się w 1951 roku. Czy jest coś jeszcze, co chciałbyś omówić lub dowiedzieć się więcej?",assistant,2024-05-15 21:58
+53,"Co jest większe kot domowy, czy delfin?",user,2024-05-15 21:58
+54,"Delfiny są zdecydowanie większe niż koty domowe. Średni kot domowy waży około 4-5 kilogramów i mierzy około 30-35 centymetrów w kłębie, podczas gdy delfiny, na przykład butlonosy, mogą osiągać długość od 2 do 4 metrów i ważyć około 150-650 kilogramów. Delfiny są więc znacznie większe zarówno pod względem rozmiaru, jak i masy ciała.",assistant,2024-05-15 21:58
